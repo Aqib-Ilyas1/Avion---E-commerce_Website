@@ -23,7 +23,7 @@ const Feature = () => {
                 <div className="flex flex-col gap-3">
                     <VscCreditCard />
                     <p className="text-[16px]">Unbeatable prices</p>
-                    <p className="satoshiFont text-[14px]">For our material and quality you won't find better prices anywhere</p>
+                    <p className="satoshiFont text-[14px]">For our material and quality you won&apos;t find better prices anywhere</p>
                 </div>
 
                 <div className="flex flex-col gap-3">
