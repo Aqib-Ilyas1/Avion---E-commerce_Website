@@ -6,12 +6,12 @@ import Ceramics from "@/components/Ceramics";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Navbar />
       <HeroBlock />
       <Features />
       <Ceramics />
-    </div>
+    </>
   );
 }
 
