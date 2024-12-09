@@ -50,7 +50,7 @@ const HeroBlock = () => {
         {/* Right Section */}
         <div className="flex items-center justify-center  mobile:hidden laptop:flex">
           <Image
-            src="/Right-Image.png"
+            src="/DandyChair.png"
             alt="Chair"
             width={520}
             height={520}
