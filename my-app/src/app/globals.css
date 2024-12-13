@@ -17,3 +17,9 @@
 .satoshiFont{
   font-family: SatoshiFont;
 }
+
+/* EmailSignpu.tsx Component */
+.EmailSignupBackgroundImage{
+  background-image: url(/EmailSignup-Image.png);
+  height: 373px;
+}
