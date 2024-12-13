@@ -8,7 +8,7 @@ const Ceramics = () => {
                     <div className="grid grid-cols-2 gap-2">
                         {/* Image-1 */}
                         <div>
-                            <Image src="/DandyChair.png" alt="Dandy Chair" width={173} height={210} />
+                            <Image src="/Images/DandyChair.png" alt="Dandy Chair" width={173} height={210} />
                             <div>
                                 <p className="clashdisplayFont text-xl">The Dandy Chair</p>
                                 <p className="satoshiFont text-lg">€ 250</p>
@@ -17,7 +17,7 @@ const Ceramics = () => {
 
                         {/* Image-2 */}
                         <div>
-                            <Image src="/VaseSet.png" alt="Vase Set" width={163} height={201} />
+                            <Image src="/Images/VaseSet.png" alt="Vase Set" width={163} height={201} />
                             <div>
                                 <p className="clashdisplayFont text-xl">Rustic Vase Set</p>
                                 <p className="satoshiFont text-lg">€ 155</p>
@@ -26,7 +26,7 @@ const Ceramics = () => {
 
                         {/* Image-3 */}
                         <div>
-                            <Image src="/LucyLamp.png" alt="Lucy Lamp" width={163} height={201} />
+                            <Image src="/Images/LucyLamp.png" alt="Lucy Lamp" width={163} height={201} />
                             <div>
                                 <p className="clashdisplayFont text-xl">The Lucy Lamp</p>
                                 <p className="satoshiFont text-lg">€ 399</p>
@@ -35,7 +35,7 @@ const Ceramics = () => {
 
                         {/* Image-4 */}
                         <div>
-                                <Image src="/SilkyVase.png" alt="Silky Vase" width={163} height={201} />
+                                <Image src="/Images/SilkyVase.png" alt="Silky Vase" width={163} height={201} />
                                 <div>
                                     <p className="clashdisplayFont text-xl">The Silky Vase</p>
                                     <p className="satoshiFont text-lg">€ 125</p>

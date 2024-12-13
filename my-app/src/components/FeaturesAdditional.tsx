@@ -14,7 +14,7 @@ const FeaturesAdditional = () => {
                 </div>
 
                 <div className="">
-                    <Image src={"/FeaAd-image.png"} alt="Additional-Features-Image" width={350} height={259} />
+                    <Image src={"/Images/FeaAd-image.png"} alt="Additional-Features-Image" width={350} height={259} />
 
                 </div>
             </div>
