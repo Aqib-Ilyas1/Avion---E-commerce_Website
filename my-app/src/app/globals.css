@@ -21,5 +21,12 @@
 /* EmailSignpu.tsx Component */
 .EmailSignupBackgroundImage{
   background-image: url(/Images/EmailSignup-Image.png);
-  height: 373px;
+  /* height: 373px; */
 }
+@media (min-width: 768px) {
+  .EmailSignupBackgroundImage{
+    background-image: url(/Images/EmailSignup-medium.png);
+    
+  }
+}
+

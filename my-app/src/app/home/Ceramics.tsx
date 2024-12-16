@@ -5,7 +5,7 @@ const Ceramics = () => {
                 <div className="py-4 px-6">
                     <p className="clashdisplayFont text-xl mb-3">New Ceramic</p>
                     {/* Images */}
-                    <div className="grid grid-cols-2 gap-2">
+                    <div className="grid grid-cols-2 gap-2 tablet:flex medium:flex medium:justify-around">
                         {/* Image-1 */}
                         <div>
                             <Image src="/Images/DandyChair.png" alt="Dandy Chair" width={173} height={210} />

@@ -26,7 +26,7 @@ const Navbar = () => {
                     <li>Tables</li>
                     <li>Chairs</li>
                     <li>Crockery</li>
-                    <li className="tablet:hidden laptop:inline-block">Tbaleware</li>
+                    <li className="tablet:hidden laptop:inline-block">Tableware</li>
                     <li className="tablet:hidden laptop:inline-block">Cutlery</li>
                 </ul>
 
