@@ -3,10 +3,10 @@ import Link from "next/link";
 const Ceramics = () => {
     return (
             <main>
-                <div className="py-4 px-6 medium:px-28">
-                    <p className="clashdisplayFont text-xl mb-3">New Ceramic</p>
+                <div className="py-4 px-6 pt-8 medium:px-28 ">
+                    <p className="clashdisplayFont text-xl mb-3">You might also like</p>
                     {/* Images */}
-                    <div className="grid grid-cols-2 gap-2 tablet:flex medium:flex flex-row medium:justify-center medium:gap-5">
+                    <div className="grid grid-cols-2 gap-2 tablet:grid tablet:grid-cols-3 laptop:grid laptop:grid-cols-4">
                         {/* Image-1 */}
                         <div>
                             <Link href="/product-listing"><Image src="/Images/DandyChair.png" alt="Dandy Chair" width={173} height={210} className="hover:scale-105 hover:duration-300"/></Link>
@@ -17,7 +17,7 @@ const Ceramics = () => {
                         </div>
 
                         {/* Image-2 */}
-                        <div>
+                        <div className="tablet:grid-cols-4">
                             <Image src="/Images/VaseSet.png" alt="Vase Set" width={163} height={201} />
                             <div>
                                 <p className="clashdisplayFont text-xl">Rustic Vase Set</p>

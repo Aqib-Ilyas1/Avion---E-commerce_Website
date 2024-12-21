@@ -39,8 +39,8 @@ const Footer = () => {
 
                 <div className="ourCompany ">
                     <ul className="satoshiFont text-sm flex flex-col gap-3">
-                        <p className="clashdisplayFont text-base">Our comopany</p>
-                        <li>About us</li>
+                        <p className="clashdisplayFont text-base">Our company</p>
+                        <li><button className="hover:bg-sky-700 transition ease-in"><a href="/about">About us</a></button></li>
                         <li>Vacancies</li>
                         <li>Contact us</li>
                         <li>Privacy</li>

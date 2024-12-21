@@ -6,9 +6,9 @@ import { FaRecycle } from "react-icons/fa";
 const Feature = () => {
     return (
         <main className="clashdisplayFont">
-            <div className="p-8 pt-6 flex flex-col gap-8 medium:px-28 py-12">
+            <div className="p-8 pt-10 flex flex-col gap-8 medium:px-20 medium:py-12">
                 <p className="mobile:w-[190px] text-2xl medium:w-full medium:flex justify-center">What makes our brand different</p>
-                <div className="mobile:flex flex-col gap-5 medium:flex medium:flex-row gap-5">
+                <div className="mobile:flex flex-col gap-5 medium:flex medium:flex-row medium:gap-5">
                     <div className="flex flex-col gap-3">
                         <TbTruckDelivery />
                         <p className="text-[16px]">Next day as standard</p>
