@@ -22,9 +22,9 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <div className="flex gap-6 p-8">
+                <div className="flex gap-6 p-8 items-center">
                     <CiSearch />
-                    <IoCartOutline className="medium:inline-block" />
+                    <button className="hover:bg-[#726E8D] transition ease-in rounded-lg p-3"><a href="/shoppingcart"><IoCartOutline className="medium:inline-block hover:text-white" /></a></button>
                     <FaRegCircleUser className="medium:inline-block" />
                     <RxHamburgerMenu className="medium:hidden" />
 
