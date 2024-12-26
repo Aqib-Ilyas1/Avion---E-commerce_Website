@@ -21,12 +21,16 @@
 /* EmailSignpu.tsx Component */
 .EmailSignupBackgroundImage{
   background-image: url(/Images/EmailSignup-Image.png);
-  /* height: 373px; */
 }
 @media (min-width: 768px) {
   .EmailSignupBackgroundImage{
     background-image: url(/Images/EmailSignup-medium.png);
-    
   }
+}
+
+/* Product Listings directory */
+.ProductHeader{
+  background-image: url(/Images/ProductsPageHeader.png);
+  /* height: 146px; */
 }
 

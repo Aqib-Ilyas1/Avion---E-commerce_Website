@@ -82,7 +82,7 @@ const Footer = () => {
                             <li>Best sellers</li>
                             <li>Recently viewed</li>
                             <li>Popular this week</li>
-                            <li>All products</li>
+                            <li><button className="hover:bg-sky-700 transition ease-in"><a href="/productlistings">All products</a></button></li>
                         </ul>
                     </div>
                 </div>
