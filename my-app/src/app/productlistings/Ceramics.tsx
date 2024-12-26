@@ -128,7 +128,7 @@ const Ceramics = () => {
                         </div>
                     </div>
 
-                    <button className="satoshiFont text-base mt-7 w-full medium:grid-0">Load more</button>
+                    <button className="satoshiFont text-base mt-7 w-full mobile:hidden medium:grid-0">Load more</button>
 
                 </div>
 
