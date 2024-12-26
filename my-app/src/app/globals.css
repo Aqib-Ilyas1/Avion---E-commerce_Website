@@ -33,4 +33,9 @@
   background-image: url(/Images/ProductsPageHeader.png);
   /* height: 146px; */
 }
+@media (min-width: 768px) {
+  .ProductHeader{
+    background-image: url(/Images/ProductsPageHeader-medium.png);
+  }
+}
 
