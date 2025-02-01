@@ -2,7 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { RiCheckboxBlankLine } from "react-icons/ri";
 import { IoMdCheckbox } from "react-icons/io";
+
+
 const Ceramics = () => {
+
     return (
         <main>
             <div className="py-4 px-6 medium:flex medium:px-20">
