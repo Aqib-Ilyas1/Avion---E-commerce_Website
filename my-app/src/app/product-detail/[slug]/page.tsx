@@ -32,7 +32,7 @@ async function getProduct(slug: string): Promise<PRODUCT> {
 export default async function ProductPage({ params }: ProductProps) {
     const { slug } = await params;
     const product = await getProduct(slug);
-    console.log(product)
+    
     return (
 
         <div>

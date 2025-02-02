@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { PRODUCT } from "../../../dataTypes/products";
 import { client } from "@/sanity/lib/client";
-import { ALLProducts, FirstSixProducts } from "@/sanity/lib/queries";
+import { ALLProducts, FirstFourProducts } from "@/sanity/lib/queries";
 import { urlFor } from "@/sanity/lib/image";
 
 
@@ -17,7 +17,7 @@ const Ceramics = () => {
 
     useEffect(() => {
         const fetchProducts = async () => {
-            const res: PRODUCT[] = await client.fetch(FirstSixProducts)
+            const res: PRODUCT[] = await client.fetch(FirstFourProducts)
             setProduct(res)
         }
         fetchProducts()
