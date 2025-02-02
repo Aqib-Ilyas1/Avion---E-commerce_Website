@@ -28,25 +28,27 @@ const Ceramics = () => {
             <div className="py-4 px-6 medium:px-28">
                 <p className="clashdisplayFont text-xl mb-3">New Ceramic</p>
 
-                
+
 
                 {/* Images */}
                 <div className="grid grid-cols-2 gap-2 tablet:flex medium:flex flex-row medium:justify-center medium:gap-5">
 
-                {product.map((product) => (
-                    <div key={product._id}>
-                        {product.image && (
-                        <Image src={urlFor(product.image).url()}
-                        alt="image" width={163} height={163}/>
-                        )
-                        }
-                        <p className="clashdisplayFont text-xl">{product.name}</p>
-                        <p className="satoshiFont text-lg">£ {product.price}</p>
+                    {product.map((product) => (
 
-                    </div>
-                )
-                    
-                )}
+                        <div key={product._id}>
+                            {product.image && (
+                                <Link href={`/product-detail/${product.slug.current}`}><Image src={urlFor(product.image).url()}
+                                    alt="image" width={163} height={163} className="hover:scale-105 hover:duration-300" /></Link>
+                            )}
+
+                            <div>
+                                <p className="clashdisplayFont text-xl">{product.name}</p>
+                                <p className="satoshiFont text-lg">£ {product.price}</p>
+                            </div>
+                        </div>
+                    )
+                    )}
+
                     {/* Image-1 */}
                     {/* <div>
                         <Link href="/product-detail"><Image src="/Images/DandyChair.png" alt="Dandy Chair" width={173} height={210} className="hover:scale-105 hover:duration-300" /></Link>
@@ -101,7 +103,7 @@ const Ceramics = () => {
                         </div>
                     </div> */}
 
-    
+
 
                 </div>
 

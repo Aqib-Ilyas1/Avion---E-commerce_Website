@@ -6,7 +6,7 @@ export interface PRODUCT {
         description: string,
         price: number,
         dimensions: {
-            length: number,
+            depth: number,
             width: number,
             height: number
         },
@@ -20,7 +20,8 @@ export interface PRODUCT {
                 url: string,
                 _type: "image",
             }
-        }
+        },
+        quantity: number;
    
     // slug: string;
     // imageUrl: string;
