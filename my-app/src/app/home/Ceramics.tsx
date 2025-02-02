@@ -23,18 +23,6 @@ const Ceramics = () => {
         fetchProducts()
     }, [])
 
-    // const allProductsQuery:PRODUCTS = await client.fetch(`*[_type == "product"]{
-    //     name,
-    //     description,
-    //     price,
-    //     dimensions,
-    //     category,
-    //     "slug": slug.current,
-    //     "imageUrl": image.asset->url
-    // }[0]`)
-
-    // console.log(allProductsQuery)
-
     return (
         <main>
             <div className="py-4 px-6 medium:px-28">
@@ -49,7 +37,7 @@ const Ceramics = () => {
                     <div key={product._id}>
                         {product.image && (
                         <Image src={urlFor(product.image).url()}
-                        alt="image" width={163} height={201}/>
+                        alt="image" width={163} height={163}/>
                         )
                         }
                         <p className="clashdisplayFont text-xl">{product.name}</p>
